@@ -21,6 +21,8 @@
   margin: 5 0;
   margin-left: 10px;
   cursor: default;
+  margin: 5px 0;
+  margin-top: 50px;
 }
 
 .title::-moz-selection {
@@ -32,8 +34,9 @@
 }
 
 .list_div {
-  width: 90vw;
-  margin: 50px 0;
+  width: 100vw;
+  margin-left: 100px;
+  position: relative;
 }
 
 .imgs_div {

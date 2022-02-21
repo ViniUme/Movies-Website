@@ -1,9 +1,20 @@
-import style from "../../styles/ListArea.module.css"
+import style from "../../styles/ListArea.module.css";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';;
 
 export default function ListArea({info}){
     return(
+        <>
+        <h3 className={style.title}>{info.title}</h3>
+        
         <div className={style.list_div}>
-            <h3 className={style.title}>{info.title}</h3>
+
+            <div>
+                <NavigateBeforeIcon />
+            </div>
+            <div>
+                <NavigateNextIcon />
+            </div>
 
             <div className={style.imgs_div}>
 
@@ -16,5 +27,6 @@ export default function ListArea({info}){
 
             </div>
         </div>
+        </>
     )
 }
