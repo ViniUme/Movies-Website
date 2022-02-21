@@ -20,7 +20,7 @@ export default function Index(){
   console.log(list);
   
   return(
-    <div>
+    <main>
       <Head>
         <title>Home Page</title>
       </Head>
@@ -28,11 +28,11 @@ export default function Index(){
       <section className={style.lists}>
 
         {list && list.map((item , key) => {
-          return <ListArea key={key} />
+          return <ListArea key={key} info={item} />
         })}
 
       </section>
 
-    </div>
+    </main>
   )
 }

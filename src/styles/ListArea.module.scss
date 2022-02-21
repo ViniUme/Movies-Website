@@ -1,0 +1,28 @@
+.img{
+    width: 200px;
+    transform: scale(.9);
+    transition: 150ms ease;
+    cursor: pointer;
+}
+.img:hover{
+    transform: scale(1);
+}
+.img::selection{
+    background: none;
+}
+.title{
+    margin: 5 0;
+    margin-left: 10px;
+    cursor: default;
+}
+.title::selection{
+    background: none;
+}
+.list_div{
+    width: 90vw;
+    margin: 50px 0;
+}
+.imgs_div{
+    width: max-content;
+    overflow-x: visible;
+}

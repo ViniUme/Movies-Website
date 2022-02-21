@@ -1,0 +1,44 @@
+.img {
+  width: 200px;
+  transform: scale(0.9);
+  transition: 150ms ease;
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(1);
+}
+
+.img::-moz-selection {
+  background: none;
+}
+
+.img::selection {
+  background: none;
+}
+
+.title {
+  margin: 5 0;
+  margin-left: 10px;
+  cursor: default;
+}
+
+.title::-moz-selection {
+  background: none;
+}
+
+.title::selection {
+  background: none;
+}
+
+.list_div {
+  width: 90vw;
+  margin: 50px 0;
+}
+
+.imgs_div {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  overflow-x: visible;
+}/*# sourceMappingURL=ListArea.module.css.map */
