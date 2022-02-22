@@ -1,5 +1,6 @@
 .img{
-    width: 200px;
+    height: 250px;
+    width: 166px;
     transform: scale(.9);
     transition: 150ms ease;
     cursor: pointer;
@@ -25,7 +26,33 @@
     margin-left: 100px;
     position: relative;
 }
+.list_div:hover .NavBefore , .list_div:hover .NavNext{
+    filter: opacity(1);
+}
 .imgs_div{
     width: max-content;
     overflow-x: visible;
+    transition: 500ms ease;
+}
+.NavBefore , .NavNext{
+    width: 33.33px;
+    height: 250px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #133f7ca2;
+    z-index: 10;
+    cursor: pointer;
+    filter: opacity(0);
+    transition: 250ms ease;
+}
+.NavBefore{
+    left: -33.33px;
+}
+.NavNext{
+    right: 66.66px;
 }
