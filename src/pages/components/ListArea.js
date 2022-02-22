@@ -30,7 +30,7 @@ export default function ListArea({info}){
                     let windowSize = window.innerWidth;
                     let listSize = info.list.results.length * 166;
                     console.log(windowSize);
-                    if(marginLeft >= listSize){
+                    if(marginLeft >= (listSize - windowSize)){
                         return
                     }
                     else{
