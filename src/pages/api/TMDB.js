@@ -13,11 +13,24 @@ const Request = async (link) => {
 export default {
     GetListMovies: async () => {
         
-        const list =[{
-            name: 'trending',
-            title: 'Trending',
-            list: await Request(`trending/movie/week?api_key=${APY_KEY}`)
-        }]
+        const list =[
+            {
+                name: 'trending',
+                title: 'Trending',
+                list: await Request(`trending/movie/week?api_key=${APY_KEY}`)
+            },
+            {
+                name: 'disney',
+                title: 'Disney Movies',
+                list: await Request(`discover/movie?sort_by=popularity.desc&with_companies=2&api_key=${APY_KEY}`)
+            },
+            {
+                name: 'lucasfilm',
+                title: 'Lucasfilm',
+                list: await Request(`discover/movie?sort_by=popularity.desc&with_companies=1&api_key=${APY_KEY}`)
+            }
+        ]
+
         return list;
     }
 }
