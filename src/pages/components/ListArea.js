@@ -5,8 +5,8 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
 export default function ListArea({info}){
 
+    const [marginLeft , setMarginLeft] = useState(0)
     if(info != []){
-        const [marginLeft , setMarginLeft] = useState(0)
 
         return(
             <>
