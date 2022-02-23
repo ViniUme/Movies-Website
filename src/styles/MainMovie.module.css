@@ -17,6 +17,7 @@
 .content {
   font-family: "Poppins", sans-serif;
   margin-left: 66px;
+  width: 50vw;
 }
 
 .content h5 {
@@ -25,10 +26,44 @@
 
 .row {
   display: flex;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .row h5 {
-  margin: 0 10px;
+  margin-right: 20px;
   font-size: 1em;
+}
+
+.buttons, .buttons button {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 250ms ease;
+}
+
+.watch {
+  background-color: #db0000;
+  color: #ffffff;
+}
+
+.watch:hover {
+  background-color: #831010;
+}
+
+.add:hover {
+  background-color: #b8b8b8;
+}
+
+.vote {
+  color: #3eff3e;
 }/*# sourceMappingURL=MainMovie.module.css.map */
