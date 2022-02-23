@@ -1,0 +1,29 @@
+.section{
+    width: 100vw;
+    height: 80vh;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.name{
+    margin: 0;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 66px;
+}
+.content h5{
+    margin: 0;
+}
+.row{
+    display: flex;
+    margin: 10px 0;
+}
+.row h5{
+    margin: 0 10px;
+    font-size: 1em;
+}
