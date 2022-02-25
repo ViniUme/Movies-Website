@@ -1,9 +1,9 @@
 import { useEffect , useState } from "react";
 import Head from 'next/head';
-import TMDB from "./api/TMDB";
-import ListArea from "./components/ListArea";
-import Footer from './components/Footer';
-import MainMovie from './components/MainMovie'
+import TMDB from "../components/TMDB";
+import ListArea from "../components/ListArea";
+import Footer from '../components/Footer';
+import MainMovie from '../components/MainMovie'
 import style from "../styles/Home.module.css";
 
 export default function Index(){

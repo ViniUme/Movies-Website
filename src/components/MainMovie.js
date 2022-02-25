@@ -1,4 +1,4 @@
-import style from '../../styles/MainMovie.module.css';
+import style from '../styles/MainMovie.module.css';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PlaylistAddIcon from '@mui/icons-material/PlaylistAdd';
 
