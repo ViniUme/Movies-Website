@@ -1,5 +1,6 @@
 <div align="center">
   <h1>Movies Website</h1>
+  <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Movies-Website?color=%2306a03c&style=for-the-badge">
   <img src="https://user-images.githubusercontent.com/66230638/156048507-2b9cb88b-52c9-4efe-8dcc-bab7ada3e7f3.png">
 </div>
 
