@@ -11,6 +11,8 @@
     margin: 0;
     letter-spacing: 0.1em;
     font-size: 2em;
+    display: inline;
+    text-align: center;
 }
 .content{
     font-family: 'Poppins', sans-serif;
@@ -44,15 +46,42 @@
     transition: 250ms ease;
 }
 .watch{
-    background-color: #db0000;
+    background-color: #06a03c;
     color: #ffffff;
 }
 .watch:hover{
-    background-color: #831010;
+    background-color: #016d27;
 }
 .add:hover{
     background-color: #b8b8b8;
 }
 .vote{
     color: #3eff3e;
+}
+
+@media (max-width: 600px){
+    .section{
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .content{
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .row{
+        display: none;
+    }
+    .buttons{
+        margin: 20px 0;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .buttons button{
+        margin: 0;
+    }
 }

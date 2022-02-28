@@ -27,6 +27,7 @@
   font-family: "Ubuntu", sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.2rem;
+  z-index: 10;
 }
 
 .title::-moz-selection {
@@ -66,7 +67,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #133f7ca2;
+  background-color: #353535bb;
   z-index: 10;
   cursor: pointer;
   filter: opacity(0);
@@ -79,4 +80,10 @@
 
 .NavNext {
   right: 80px;
+}
+
+@media (max-width: 1000px) {
+  .NavBefore, .NavNext {
+    filter: opacity(1);
+  }
 }/*# sourceMappingURL=ListArea.module.css.map */

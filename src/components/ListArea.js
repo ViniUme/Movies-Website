@@ -31,7 +31,6 @@ const ListArea = ({info}) => {
             <div className={style.NavNext} onClick={function Next(){
                     let windowSize = window.innerWidth;
                     let listSize = info.list.results.length * 166;
-                    console.log(windowSize);
                     if(marginLeft >= (listSize - windowSize)){
                         return
                     }
