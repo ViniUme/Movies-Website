@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1>Movies Website</h1>
+  <img src="https://user-images.githubusercontent.com/66230638/156048507-2b9cb88b-52c9-4efe-8dcc-bab7ada3e7f3.png">
+</div>
 
-## Getting Started
+### About
+This site was made with Next.JS, inpired on Netflix and get data in <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>
 
-First, run the development server:
+### Technologies Used
+<table>
+  <tr>
+    <td>Front End</td>
+    <td>Back End</td>
+  </tr>
+  
+  <tr>
+    <td><img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></td>
+  </tr>
+    <td><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"></td>
+  <tr>
+    <td><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"></td>
+  </tr>
+</table>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### How to Run
+Clone this repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    git clone https://github.com/ViniUme/Movies-Website.git
+    
+Have Node.js installed. With terminal opened in project folder, install the dependencies :
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    npm install
+    
+Then type this command in project terminal to run:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    npm run dev
+    
+Open in your navigator the localhost in port 3000: <a href="http://localhost:3000"> http://localhost:3000</a>
