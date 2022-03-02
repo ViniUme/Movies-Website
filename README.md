@@ -1,11 +1,13 @@
 <div align="center">
-  <h1>Movies Website</h1>
+  
+# <a href="https://movies-website-eight.vercel.app/">Movies Website</a>
+  
   <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Movies-Website?color=%2306a03c&style=for-the-badge">
   <img src="https://user-images.githubusercontent.com/66230638/156048507-2b9cb88b-52c9-4efe-8dcc-bab7ada3e7f3.png">
 </div>
 
 ### About
-This site was made with Next.JS, inpired on Netflix and get data in <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>
+This site was made with Next.JS, inpired on Netflix and get data in <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>. You can access the site <a href="https://movies-website-eight.vercel.app/">here</a>
 
 ### Technologies Used
 <table>
