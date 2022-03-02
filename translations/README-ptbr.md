@@ -6,6 +6,9 @@
   <img src="https://user-images.githubusercontent.com/66230638/156048507-2b9cb88b-52c9-4efe-8dcc-bab7ada3e7f3.png">
 </div>
 
+## Traduções
+- [English](https://github.com/ViniUme/Movies-Website/)
+
 ### Sobre
 This site was made with Next.JS, inpired on Netflix and get data in <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>. You can access the site <a href="https://movies-website-eight.vercel.app/">here</a>
 Esse site foi feito com Next.JS, inspirado na Netflix e os dados são pegos no <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>. Você pode acessar o site <a href="https://movies-website-eight.vercel.app/">aqui</a>
