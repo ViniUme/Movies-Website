@@ -3,14 +3,18 @@
 # <a href="https://movies-website-eight.vercel.app/">Movies Website</a>
   
   <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Movies-Website?color=%2306a03c&style=for-the-badge">
-  <img src="https://user-images.githubusercontent.com/66230638/156048507-2b9cb88b-52c9-4efe-8dcc-bab7ada3e7f3.png">
+  <img src="https://github.com/ViniUme/assets/blob/master/movies.gif">
 </div>
 
 ## Translations
 - [Português Brasileiro](https://github.com/ViniUme/Movies-Website/blob/master/translations/README-ptbr.md)
 
+<br>
+
 ### About
-This site was made with Next.JS, inpired on Netflix and get data in <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>. You can access the site <a href="https://movies-website-eight.vercel.app/">here</a>
+This site was make with Next.JS, inpired on Netflix and get data in <a href="https://www.themoviedb.org/?language=pt-BR">The Movie Data Base</a>. You can access the site <a href="https://movies-website-eight.vercel.app/">here</a>
+
+<br>
 
 ### Technologies Used
 <table>
@@ -33,6 +37,8 @@ This site was made with Next.JS, inpired on Netflix and get data in <a href="htt
   </tr>
 </table>
 
+<br>
+
 ### How to Run
 Clone this repository:
 
@@ -41,9 +47,13 @@ Clone this repository:
 Have Node.js installed. With terminal opened in project folder, install the dependencies :
 
     npm install
+        or
+    yarn
     
 Then type this command in to run local server:
 
     npm run dev
+       or
+    yarn dev
     
 Open in your navigator the localhost in port 3000: <a href="http://localhost:3000"> http://localhost:3000</a>
