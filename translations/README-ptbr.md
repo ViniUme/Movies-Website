@@ -2,7 +2,7 @@
   
 # <a href="https://movies-website-eight.vercel.app/">Movies Website</a>
   
-  <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Movies-Website?color=%2306a03c&style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/ViniUme/Movies-Website?color=%23002455&style=for-the-badge">
   <img src="https://github.com/ViniUme/assets/blob/master/movies.gif">
 </div>
 
